@@ -1,0 +1,10 @@
+Process Stages :
+
+1. Create account on Brightdata 
+2. Export Scraped data from BrightData in to Snowflake cloud warehouse / Load data from local in to snowflake (firstly put data in to stage after then dump it in to tables)
+3. Create Stage in snowflake 
+4. Tranform Columns (Location columns & Title columns)
+5. Connect Snowflakes to Python
+6. Connect python to GOOGLE_Sheet_API
+7. Merge all datasets 
+8. Analysis and get insights

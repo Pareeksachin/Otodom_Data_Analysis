@@ -1,0 +1,202 @@
+Microsoft Windows [Version 10.0.22621.2215]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Anonymous>snowsql -a ENTER_YOUR_ACCOUNT -u YOUR_USERNAME
+Installing version: 1.2.28  [###----------------------Installing version: 1.2.28  [###----------------------Installing version: 1.2.28  [###----------------------Installing version: 1.2.28  [###----------------------Installing version: 1.2.28  [####---------------------Installing version: 1.2.28  [####---------------------Installing version: 1.2.28  [####---------------------Installing version: 1.2.28  [#####--------------------Installing version: 1.2.28  [#####--------------------Installing version: 1.2.28  [#####--------------------Installing version: 1.2.28  [#####--------------------Installing version: 1.2.28  [######-------------------Installing version: 1.2.28  [######-------------------Installing version: 1.2.28  [######-------------------Installing version: 1.2.28  [######-------------------Installing version: 1.2.28  [#######------------------Installing version: 1.2.28  [#######------------------Installing version: 1.2.28  [#######------------------Installing version: 1.2.28  [#######------------------Installing version: 1.2.28  [#######------------------Installing version: 1.2.28  [########-----------------Installing version: 1.2.28  [########-----------------Installing version: 1.2.28  [########-----------------Installing version: 1.2.28  [#########----------------Installing version: 1.2.28  [#########----------------Installing version: 1.2.28  [#########----------------Installing version: 1.2.28  [##########---------------Installing version: 1.2.28  [##########---------------Installing version: 1.2.28  [##########---------------Installing version: 1.2.28  [##########---------------Installing version: 1.2.28  [###########--------------Installing version: 1.2.28  [###########--------------Installing version: 1.2.28  [###########--------------Installing version: 1.2.28  [###########--------------Installing version: 1.2.28  [############-------------Installing version: 1.2.28  [############-------------Installing version: 1.2.28  [############-------------Installing version: 1.2.28  [############-------------Installing version: 1.2.28  [#############------------Installing version: 1.2.28  [#############------------Installing version: 1.2.28  [#############------------Installing version: 1.2.28  [##############-----------Installing version: 1.2.28  [##############-----------Installing version: 1.2.28  [##############-----------Installing version: 1.2.28  [##############-----------Installing version: 1.2.28  [##############-----------Installing version: 1.2.28  [###############----------Installing version: 1.2.28  [###############----------Installing version: 1.2.28  [###############----------Installing version: 1.2.28  [###############----------Installing version: 1.2.28  [################---------Installing version: 1.2.28  [################---------Installing version: 1.2.28  [################---------Installing version: 1.2.28  [################---------Installing version: 1.2.28  [#################--------Installing version: 1.2.28  [#################--------Installing version: 1.2.28  [#################--------Installing version: 1.2.28  [##################-------Installing version: 1.2.28  [##################-------Installing version: 1.2.28  [##################-------Installing version: 1.2.28  [###################------Installing version: 1.2.28  [###################------Installing version: 1.2.28  [###################------Installing version: 1.2.28  [###################------Installing version: 1.2.28  [####################-----Installing version: 1.2.28  [####################-----Installing version: 1.2.28  [####################-----Installing version: 1.2.28  [####################-----Installing version: 1.2.28  [####################-----Installing version: 1.2.28  [#####################----Installing version: 1.2.28  [#####################----Installing version: 1.2.28  [#####################----Installing version: 1.2.28  [#####################----Installing version: 1.2.28  [######################---Installing version: 1.2.28  [######################---Installing version: 1.2.28  [######################---Installing version: 1.2.28  [#######################--Installing version: 1.2.28  [#######################--Installing version: 1.2.28  [#######################--Installing version: 1.2.28  [#######################--Installing version: 1.2.28  [########################-Installing version: 1.2.28  [########################-Installing version: 1.2.28  [########################-Installing version: 1.2.28  [########################-Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [#########################Installing version: 1.2.28  [####################################]  100%
+Password:
+* SnowSQL * v1.2.28
+Type SQL statements or !help
+sachinpareek#COMPUTE_WH@(no database).(no schema)> create DATAB
+                                                  ASE otodom;
+
++---------------------------------------+
+| status                                |
+|---------------------------------------|
+| Database OTODOM successfully created. |
++---------------------------------------+
+1 Row(s) produced. Time Elapsed: 0.862s
+sachinpareek#COMPUTE_WH@OTODOM.PUBLIC>create warehouse otodom_w
+                                      h;
+
++-------------------------------------------+
+| status                                    |
+|-------------------------------------------|
+| Warehouse OTODOM_WH successfully created. |
++-------------------------------------------+
+1 Row(s) produced. Time Elapsed: 0.833s
+sachinpareek#OTODOM_WH@OTODOM.PUBLIC>create or replace table otodom_data_dump_short(json_data text);
++----------------------------------------------------+
+| status                                             |
+|----------------------------------------------------|
+| Table OTODOM_DATA_DUMP_SHORT successfully created. |
++----------------------------------------------------+
+1 Row(s) produced. Time Elapsed: 1.220s
+sachinpareek#OTODOM_WH@OTODOM.PUBLIC>CREATE OR REPLACE FILE FORMAT CSV_FORMAT
+                                       type = csv
+                                       field_delimiter = ','
+                                       field_optionally_enclosed_by='"';
++----------------------------------------------+
+| status                                       |
+|----------------------------------------------|
+| File format CSV_FORMAT successfully created. |
++----------------------------------------------+
+1 Row(s) produced. Time Elapsed: 0.141s
+sachinpareek#OTODOM_WH@OTODOM.PUBLIC>CREATE OR REPLACE STAGE MY_CSV_STAGE_SHORT
+                                       file_format=csv_format;
++-----------------------------------------------------+
+| status                                              |
+|-----------------------------------------------------|
+| Stage area MY_CSV_STAGE_SHORT successfully created. |
++-----------------------------------------------------+
+1 Row(s) produced. Time Elapsed: 0.157s
+sachinpareek#OTODOM_WH@OTODOM.PUBLIC>PUT
+                                     file:C:\Users\Anonymous\Documents\Project\Data analysis\Dataset\Sample_ORG_Dataset_Part1\Otodom
+                                     _Apartment_major_cities_dataset_ORG_JSON_Format_Part1.csv @MY_CSV_STAGE_SHORT;
+001003 (42000): SQL compilation error:
+syntax error line 2 at position 0 unexpected 'file'.
+parse error line 2 at position 14 near '65'.
+parse error line 2 at position 24 near '68'.
+parse error line 2 at position 34 near '80'.
+parse error line 2 at position 42 near '68'.
+parse error line 2 at position 56 near '68'.
+parse error line 2 at position 64 near '83'.
+parse error line 2 at position 89 near '79'.
+sachinpareek#OTODOM_WH@OTODOM.PUBLIC>PUT file:///C:/Users/Anonymous/Documents/Project/Data analysis/Dataset/Sample_ORG_Dataset_Part1
+                                     /Otodom_Apartment_major_cities_dataset_ORG_JSON_Format_Part1.csv @MY_CSV_STAGE_SHORT;
+001003 (42000): SQL compilation error:
+syntax error line 1 at position 54 unexpected 'analysis'.
+syntax error line 1 at position 62 unexpected '/'.
+syntax error line 1 at position 70 unexpected '/'.
+syntax error line 1 at position 95 unexpected '/'.
+syntax error line 1 at position 155 unexpected '.'.
+syntax error line 1 at position 160 unexpected '@MY_CSV_STAGE_SHORT'.
+sachinpareek#OTODOM_WH@OTODOM.PUBLIC>PUT file:///C:/Users/Anonymous/Documents/Project/"Data analysis"/Dataset/Sample_ORG_Dataset_Par
+                                     t1/Otodom_Apartment_major_cities_dataset_ORG_JSON_Format_Part1.csv @MY_CSV_STAGE_SHORT;
+001003 (42000): SQL compilation error:
+syntax error line 1 at position 55 unexpected 'analysis'.
+parse error line 1 at position 182 near '<EOF>'.
+syntax error line 1 at position 182 unexpected '<EOF>'.
+sachinpareek#OTODOM_WH@OTODOM.PUBLIC>PUT file:///C:/Users/Anonymous/Documents/Project/Data_analysis/Dataset/Sample_ORG_Dataset_Part1
+                                     /Otodom_Apartment_major_cities_dataset_ORG_JSON_Format_Part1.csv @MY_CSV_STAGE_SHORT;
++-----------------------------------------------------------------+--------------------------------------------------------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+| source                                                          | target                                                             | source_size | target_size | source_compression | target_compression | status   | message |
+|-----------------------------------------------------------------+--------------------------------------------------------------------+-------------+-------------+--------------------+--------------------+----------+---------|
+| Otodom_Apartment_major_cities_dataset_ORG_JSON_Format_Part1.csv | Otodom_Apartment_major_cities_dataset_ORG_JSON_Format_Part1.csv.gz |    59322264 |    13439728 | NONE               | GZIP               | UPLOADED |         |
++-----------------------------------------------------------------+--------------------------------------------------------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+1 Row(s) produced. Time Elapsed: 16.162s
+sachinpareek#OTODOM_WH@OTODOM.PUBLIC>PUT file:///C:/Users/Anonymous/Documents/Project/Data_analysis/Dataset/Sample_ORG_Dataset_Part2
+                                     /Otodom_Apartment_major_cities_dataset_ORG_JSON_Format_Part2.csv @MY_CSV_STAGE_SHORT;
++-----------------------------------------------------------------+--------------------------------------------------------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+| source                                                          | target                                                             | source_size | target_size | source_compression | target_compression | status   | message |
+|-----------------------------------------------------------------+--------------------------------------------------------------------+-------------+-------------+--------------------+--------------------+----------+---------|
+| Otodom_Apartment_major_cities_dataset_ORG_JSON_Format_Part2.csv | Otodom_Apartment_major_cities_dataset_ORG_JSON_Format_Part2.csv.gz |    62710502 |    12115216 | NONE               | GZIP               | UPLOADED |         |
++-----------------------------------------------------------------+--------------------------------------------------------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+1 Row(s) produced. Time Elapsed: 17.445s
+sachinpareek#OTODOM_WH@OTODOM.PUBLIC>PUT file:///C:/Users/Anonymous/Documents/Project/Data_analysis/Dataset/Sample_ORG_Dataset_Part3
+                                     /Otodom_Apartment_major_cities_dataset_ORG_JSON_Format_Part3.csv @MY_CSV_STAGE_SHORT;
++-----------------------------------------------------------------+--------------------------------------------------------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+| source                                                          | target                                                             | source_size | target_size | source_compression | target_compression | status   | message |
+|-----------------------------------------------------------------+--------------------------------------------------------------------+-------------+-------------+--------------------+--------------------+----------+---------|
+| Otodom_Apartment_major_cities_dataset_ORG_JSON_Format_Part3.csv | Otodom_Apartment_major_cities_dataset_ORG_JSON_Format_Part3.csv.gz |    57028608 |    11327920 | NONE               | GZIP               | UPLOADED |         |
++-----------------------------------------------------------------+--------------------------------------------------------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+1 Row(s) produced. Time Elapsed: 15.028s
+sachinpareek#OTODOM_WH@OTODOM.PUBLIC>COPY INTO OTODOM_DATA_DUMP_SHORT
+                                     FROM @MY_CSV_STAGE_SHORT;
++---------------------------------------------------------------------------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------+
+| file                                                                                  | status | rows_parsed | rows_loaded | error_limit | errors_seen | first_error | first_error_line | first_error_character | first_error_column_name |
+|---------------------------------------------------------------------------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------|
+| my_csv_stage_short/Otodom_Apartment_major_cities_dataset_ORG_JSON_Format_Part3.csv.gz | LOADED |       20816 |       20816 |           1 |           0 | NULL        |             NULL |                  NULL | NULL                    |
+| my_csv_stage_short/Otodom_Apartment_major_cities_dataset_ORG_JSON_Format_Part2.csv.gz | LOADED |       21000 |       21000 |           1 |           0 | NULL        |             NULL |                  NULL | NULL                    |
+| my_csv_stage_short/Otodom_Apartment_major_cities_dataset_ORG_JSON_Format_Part1.csv.gz | LOADED |       21000 |       21000 |           1 |           0 | NULL        |             NULL |                  NULL | NULL                    |
++---------------------------------------------------------------------------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------+
+3 Row(s) produced. Time Elapsed: 5.336s
+sachinpareek#OTODOM_WH@OTODOM.PUBLIC>SELECT COUNT(1) FROM OTODOM_DATA_DUMP_SHORT
+                                     ;
++----------+
+| COUNT(1) |
+|----------|
+|    62816 |
++----------+
+1 Row(s) produced. Time Elapsed: 0.352s
+sachinpareek#OTODOM_WH@OTODOM.PUBLIC>SELECT PARSE_JSON(json_data):price FROM OTODOM_DATA_dump_short limit 5;
++-----------------------------+
+| PARSE_JSON(JSON_DATA):PRICE |
+|-----------------------------|
+| "€7,100.00"                 |
+| "PLN 700.00"                |
+| "PLN 24,720.00"             |
+| "PLN 11,640.00"             |
+| "PLN 15,000.00"             |
++-----------------------------+
+5 Row(s) produced. Time Elapsed: 1.537s
+
+
+
+
+sachinpareek#COMPUTE_WH@(no database).(no schema)>show DATABASE
+                                                  S
+
+                                                  ;
+
++-------------------------------+-----------------------+------------+------------+----------------------------------------------------------+--------------+---------------------------------------------------+---------+----------------+-------------------+| created_on                    | name                  | is_default | is_current | origin                                                   | owner        | comment
+                | options | retention_time | kind              ||-------------------------------+-----------------------+------------+------------+----------------------------------------------------------+--------------+---------------------------------------------------+---------+----------------+-------------------|| 2023-09-16 20:17:35.111 -0700 | OTODOM                | N          | N          |
+             | ACCOUNTADMIN |
+                |         | 1              | STANDARD          || 2023-09-16 20:04:38.098 -0700 | SNOWFLAKE             | N          | N          | SNOWFLAKE.ACCOUNT_USAGE
+             |              |
+                |         | 0              | APPLICATION       || 2023-09-16 20:04:42.212 -0700 | SNOWFLAKE_SAMPLE_DATA | N          | N          | SFSALESSHARED.SFC_SAMPLES_AWS_AP_SOUTHEAST_1.SAMPLE_DATA | ACCOUNTADMIN | Provided by Snowflake during account provisioning |         | 0              | IMPORTED DATABASE |+-------------------------------+-----------------------+------------+------------+----------------------------------------------------------+--------------+---------------------------------------------------+---------+----------------+-------------------+3 Row(s) produced. Time Elapsed: 0.188s
+sachinpareek#COMPUTE_WH@(no database).(no schema)>use OTODOM
+                                                  ;
+
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.141s
+sachinpareek#COMPUTE_WH@OTODOM.PUBLIC>use OTODOM WAREHOUSE;
+
+001003 (42000): SQL compilation error:
+syntax error line 1 at position 11 unexpected 'WAREHOUSE'.
+sachinpareek#COMPUTE_WH@OTODOM.PUBLIC>use WAREHOUSE
+                                      OTODOM_WH
+                                      ;
+
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.142s
+sachinpareek#OTODOM_WH@OTODOM.PUBLIC>PUT file:///C:/Users/Anony
+                                     mous/Documents/Project/Dat
+                                     a_analysis/Address_Title/A
+                                     ddress_Title/Otodom_Apartm
+                                     ent_major_cities_dataset_A
+                                     ddress.csv @MY_CSV_STAGE_S
+                                     HORT;
+
++---------------------------------------------------+------------------------------------------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+| source                                            | target                                               | source_size | target_size | source_compression | target_compression | status   | message |
+|---------------------------------------------------+------------------------------------------------------+-------------+-------------+--------------------+--------------------+----------+---------|
+| Otodom_Apartment_major_cities_dataset_Address.csv | Otodom_Apartment_major_cities_dataset_Address.csv.gz |    20730262 |     2364720 | NONE               | GZIP               | UPLOADED |         |
++---------------------------------------------------+------------------------------------------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+sachinpareek#OTODOM_WH@OTODOM.PUBLIC>PUT file:///C:/Users/Anonymous/Documents/Project/Data_analysis/Address_Title/Address_Title/Otod
+                                     om_Apartment_major_cities_dataset_Address.csv @MY_CSV_STAGE_SHORT
+                                     ;
++---------------------------------------------------+------------------------------------------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+| source                                            | target                                               | source_size | target_size | source_compression | target_compression | status   | message |
+|---------------------------------------------------+------------------------------------------------------+-------------+-------------+--------------------+--------------------+----------+---------|
+| Otodom_Apartment_major_cities_dataset_Address.csv | Otodom_Apartment_major_cities_dataset_Address.csv.gz |    20730262 |     2364720 | NONE               | GZIP               | UPLOADED |         |
++---------------------------------------------------+------------------------------------------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+1 Row(s) produced. Time Elapsed: 8.416s
+sachinpareek#OTODOM_WH@OTODOM.PUBLIC>put file:///C:/Users/Anonymous/Documents/Project/Data_analysis/Address_Title/Address_Title/Otod
+sachinpareek#OTODOM_WH@OTODOM.PUBLIC>put file:///C:/Users/Anonymous/Documents/Project/Data_analysis/Address_Title/Address_Title/Otod
+                                     om_Apartment_major_cities_dataset_Translate.csv @MY_CSV_STAGE_TRANS
+                                     ;
++-----------------------------------------------------+--------------------------------------------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+| source                                              | target                                                 | source_size | target_size | source_compression | target_compression | status   | message |
+|-----------------------------------------------------+--------------------------------------------------------+-------------+-------------+--------------------+--------------------+----------+---------|
+| Otodom_Apartment_major_cities_dataset_Translate.csv | Otodom_Apartment_major_cities_dataset_Translate.csv.gz |     5847159 |     1487056 | NONE               | GZIP               | UPLOADED |         |
++-----------------------------------------------------+--------------------------------------------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+1 Row(s) produced. Time Elapsed: 4.007s
+sachinpareek#OTODOM_WH@OTODOM.PUBLIC>

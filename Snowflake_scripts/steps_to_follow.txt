@@ -1,0 +1,26 @@
+Step1 : create a account on snowflake
+
+step 2 : connect account to snowSQL(Download snowSQL from google : https://developers.snowflake.com/snowsql/)
+
+step 3. Open Command prompt
+
+	snowsql -a lkpadez-to64542 -u sachinpareek
+
+
+
+
+to show all packages in a virtual environament :
+conda list
+
+where conda 
+
+conda env list 
+
+python --version
+
+conda create --name otodom_analysis python=3.11
+
+conda activate otodom_analysis
+
+
+

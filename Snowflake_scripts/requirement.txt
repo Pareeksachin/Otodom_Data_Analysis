@@ -1,0 +1,12 @@
+
+pip install pandas
+pip install SQLAlchemy
+pip install "snowflake-connector-python[pandas]"
+pip install snowflake-sqlalchemy
+pip install gspread
+pip install gspread
+pip install gspread-dataframe
+pip install geopy
+pip install dask
+pip install deep-translator
+
